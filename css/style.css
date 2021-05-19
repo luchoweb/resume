@@ -141,6 +141,11 @@ h1, h2, h3, h4, h5, b, strong {
     font-weight: 600;
 }
 
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
 header {
     position: relative;
 }
@@ -173,10 +178,8 @@ header {
 }
 
 .profile {
-    margin: 0 auto;
     padding-top: 5.5rem;
     text-align: center;
-    width: 500px;
 }
 
 .profile__name {
@@ -207,4 +210,10 @@ header {
 }
 .contact__item .icon:hover {
     opacity: .8;
+}
+
+@media (max-width: 499px) {
+    .container {
+        width: 90%;
+    }
 }
